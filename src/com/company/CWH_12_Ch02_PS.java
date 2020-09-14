@@ -6,6 +6,13 @@ public class CWH_12_Ch02_PS {
 
     public static void main(String[] args) {
 
+        /*
+        problem 1:
+        what will be the result of the following expression
+
+        float a = 7/4*8/2
+         */
+
         float a = 7/4 * 9/2; //4.0
         System.out.println(a);
         a = 7/4.0f * 9/2.0f;
@@ -14,9 +21,10 @@ public class CWH_12_Ch02_PS {
         /*
         problem 2:
 
-        * write a java program to energy a grate by adding 8 to it
-        * dectypt it to show the correct grade
-        * */
+        write a java program to energy a grate by adding 8 to it
+        decrypt it to show the correct grade
+
+        */
 
         char grade = 'B';
         grade  = (char)(grade + 8);
@@ -29,6 +37,8 @@ public class CWH_12_Ch02_PS {
         /*
         problem 3:
 
+        use comparison operator to find out whether a given number
+        is grater than the user entered number or not
 
         */
 
@@ -40,7 +50,9 @@ public class CWH_12_Ch02_PS {
         /*
         problem 4:
 
+        write a program expression in a given program:
 
+                ((v*v) - (u*u))/(2*a*s)
 
         */
 
@@ -54,8 +66,13 @@ public class CWH_12_Ch02_PS {
 
         /*
 
-        in
+        problem 5:
 
+        find the value of following expression
+
+            int x = 7;
+            int a = 7 * 49 / 7 + 35 / 7;
+            a = ?
 
         */
 
