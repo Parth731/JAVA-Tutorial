@@ -23,7 +23,8 @@ public class CWH_07_Ch01_PS {
 //        System.out.println(sum);
 
 //        Question 3
-//        write java program ask user to enter his/her name and greets them with "Hello <name>, have good day" text
+//        write java program ask user to enter his/her name and
+//        greets them with "Hello <name>, have good day" text
 //        System.out.println("what is your name");
 //        Scanner sc = new Scanner(System.in);
 //        String name = sc.next();
