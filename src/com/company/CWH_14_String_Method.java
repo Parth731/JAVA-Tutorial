@@ -18,10 +18,10 @@ public class CWH_14_String_Method {
         //String Ustring = name.toUpperCase();
         //System.out.println(Ustring);
 
-        //String nonTrimmedString = "      Parth       ";
-        //System.out.println(nonTrimmedString);
-        //String trimmedString = nonTrimmedString.trim();
-        //System.out.println(trimmedString);
+        String nonTrimmedString = "      Parth       ";
+        System.out.println(nonTrimmedString);   //
+        String trimmedString = nonTrimmedString.trim();
+        System.out.println(trimmedString);
 
         System.out.println(name.substring(1));
         System.out.println(name.substring(1,4));
@@ -50,10 +50,10 @@ public class CWH_14_String_Method {
         System.out.println(name.equalsIgnoreCase("haRry"));//true
 
         System.out.println("I am escape sequence \" double qoute");
-        System.out.println("I am escape sequence \\ double qoute");
-        System.out.println("I am escape sequence \' double qoute");
-        System.out.println("I am escape sequence \n double qoute");
-        System.out.println("I am escape sequence \t double qoute");
+        System.out.println("I am escape sequence \\ slash");
+        System.out.println("I am escape sequence \' single qoute");
+        System.out.println("I am escape sequence \n new line");
+        System.out.println("I am escape sequence \t tab");
 
 
 
