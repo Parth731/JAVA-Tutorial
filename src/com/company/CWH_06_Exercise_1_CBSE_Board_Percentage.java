@@ -7,7 +7,7 @@
 package com.company;
 import  java.util.Scanner;
 
-public class CWH_06_Quiz {
+public class CWH_06_Exercise_1_CBSE_Board_Percentage {
 
     public static void main(String[] args) {
 

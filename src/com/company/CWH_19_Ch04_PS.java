@@ -62,17 +62,17 @@ public class CWH_19_Ch04_PS {
 //        System.out.println("Enter your income in lac");
 //        float tax = 0;
 //        float income = sc.nextFloat();
-//        if(income<=2.5){
+//        if(income<=2.5f){
 //            tax = tax + 0;
 //        }
-//        if(income>2.5 && income<=5.0f){
+//        if(income>2.5f && income<=5.0f){
 //            tax = tax + 0.05f * (income - 2.5f);
 //        }
 //        else if(income>5.0f && income<=10.0f){
 //            tax = tax + 0.0f * (5.0f - 2.5f);
 //            tax = tax + 0.2f * (income - 5.0f);
 //        }
-//        else if(income>10.f){
+//        else if(income>10.0f){
 //            tax = tax + 0.05f * (10.0f - 5.0f);
 //            tax = tax + 0.05f * (5.0f - 2.5f);
 //            tax = tax + 0.3f * (income - 10.0f);
@@ -82,6 +82,9 @@ public class CWH_19_Ch04_PS {
 
         /*
         problem 4:
+        write a java program to find out the day of the week
+        given the number [1 for monday, 2 for tuesday...and so
+        on !]
          */
 
 //        Scanner sc = new Scanner(System.in);
@@ -98,6 +101,8 @@ public class CWH_19_Ch04_PS {
 
         /*
         problem 5
+        write a java program to find weqther a year entered by
+        user is a leap year or not!
         */
 
 //        Scanner sc = new Scanner(System.in);
@@ -128,6 +133,12 @@ public class CWH_19_Ch04_PS {
 
         /*
         problem 6
+        write a program to find out the type of website
+        from the url
+
+                    .com -> commercial website
+                    .org->  organization website
+                    .in->   indian website
 
         */
         Scanner sc = new Scanner(System.in);
