@@ -14,12 +14,12 @@ package com.company;
 import java.util.Random;
 import java.util.Scanner;
 
-class Game{
+class Game1{
 
     private int noofguess;
     private int compno;
     private int userno;
-    public Game() {
+    public Game1() {
 
         Random rad = new Random();
         this.compno = rad.nextInt(100)+1;
@@ -44,19 +44,19 @@ class Game{
     public int isCorrectNumber(){
 
         do{
-                TakeUserInput();
-                if(userno < compno){
-                    System.out.println("You selected number less\n");
-                    noofguess++;
-                }
-                else if(userno > compno){
-                    System.out.println("You selected number greater\n");
-                    noofguess++;
-                }
-                else if(userno == compno){
-                    System.out.println("You won the match...!!\n");
-                    noofguess++;
-                }
+            TakeUserInput();
+            if(userno < compno){
+                System.out.println("You selected number less\n");
+                noofguess++;
+            }
+            else if(userno > compno){
+                System.out.println("You selected number greater\n");
+                noofguess++;
+            }
+            else if(userno == compno){
+                System.out.println("You won the match...!!\n");
+                noofguess++;
+            }
 
         }while(userno != compno);
 
@@ -65,11 +65,11 @@ class Game{
     }
 }
 
-public class CWH_43_Exercise {
+public class CWH_50_Exercise_3_Soluation {
 
     public static void main(String[] args) {
 
-        Game game = new Game();
+        Game1 game = new Game1();
         int no = game.isCorrectNumber();
         System.out.println("You won the game no of guess: " +no);
     }
